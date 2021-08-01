@@ -1,0 +1,306 @@
+
+/* ==================================================
+   Basic Styles
+================================================== */
+
+html{
+	width:100%;
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+
+body{
+	background:#fff;
+	color:#000;
+	font-weight:400;
+	font-size:16px;
+	font-family: 'Montserrat', sans-serif;
+	line-height:30px;
+	letter-spacing: 0.2px;
+}
+
+
+a{
+	color:#777;
+	font-weight: 400;
+	text-decoration: none;
+	cursor: pointer;
+	
+	-webkit-transition: color 0.15s ease-in-out 0s;	
+	   -moz-transition: color 0.15s ease-in-out 0s;
+		 -o-transition: color 0.15s ease-in-out 0s;
+		    transition: color 0.15s ease-in-out 0s;
+}
+
+a:hover,
+a:active,
+a:focus{
+	outline: 0;
+	color:#000;
+	text-decoration:none;
+}
+
+a img {
+	border: none;
+}
+
+a > img {
+	vertical-align: bottom;	
+}
+
+img {
+	max-width: none;	
+}
+
+p {
+	margin: 0 0 30px;
+}
+
+ul {
+    margin: 0 0 20px 0px;
+    padding: 0;
+}
+
+ul {
+	list-style: circle inside;
+}
+
+li {
+	line-height: 30px;
+}
+
+input::input-placeholder,
+textarea::input-placeholder {
+	color: #BCBCC4;
+	opacity: 1;
+}
+
+/* ==================================================
+   Typography
+================================================== */
+
+h3,
+h6{
+	margin:0 0 20px 0;
+	color:#000;
+	font-weight:400;
+	font-family: 'Montserrat', sans-serif;
+	line-height:1.5em;
+}
+
+h3{
+	font-size:22px;
+	color:#000;
+	letter-spacing: 0.6px;
+	text-align:center;
+	font-weight:400;
+
+}
+
+h6{
+	font-size:13px;
+	font-weight:400;
+	line-height:1em;
+	color:#B5B5B5;
+	text-align:center;
+	letter-spacing: 0.5px;
+	padding-top: 5px;
+	
+}
+
+
+
+h7{
+	font-size:14px;
+	font-weight:400;
+	letter-spacing: 1px;
+	color:#000;
+	letter-spacing: 0.5px;
+	text-align:center;
+	line-height:1.6em;
+	
+}
+
+
+/* ==================================================
+   Margin Bottom Sets
+================================================== */
+
+.margin-0{
+	margin-bottom:0 !important;
+}
+
+
+/* ==================================================
+   Header
+================================================== */
+
+header {
+	background:transparent;
+	position: static;
+	width: 100%;
+	height: 100px;
+	z-index: 1001;
+	padding-top:40px;
+	padding-bottom: 40px;
+}
+
+header #logo a {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 100px;
+	letter-spacing: 2px;
+}
+
+header #logo a:hover {
+	color: #777;	
+}
+
+
+
+/* Navigation */
+
+nav#menu {
+	float: right;
+}
+
+nav#menu #menu-nav {
+	margin: 0;
+	padding: 0;
+}
+
+nav#menu #menu-nav li {
+	position: relative;	
+	list-style: none;
+	float: left;
+	padding: 0 30px;
+	
+}
+
+nav#menu #menu-nav li a {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 100px;
+	display: block;
+	letter-spacing: 0.2px;
+}
+
+nav#menu #menu-nav li:last-child {
+	padding-right: 0;
+}
+
+nav#menu #menu-nav li a:hover {
+	color: #777;
+}
+
+/* ==================================================
+   Intro Box
+================================================== */
+
+#intro-box {
+	position: relative;
+	background:transparent;
+	padding: 60px 0 130px;
+	text-align:center;
+	
+	
+}
+
+#intro-box h3 {
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+    font-weight: 400;
+	line-height: 1.7;
+	letter-spacing: 0.5px;
+	text-align: start;
+	
+}
+
+#intro-box p {
+	text-align: start;
+}
+
+#intro-box .center {
+	text-align: center;
+}
+
+/* ==================================================
+   Team People / Single Team
+================================================== */
+
+/* Single Team Page */
+
+#single-team .team-img {
+	margin-bottom: 30px;	
+}
+
+#single-team .team-img img {
+	width: 100%;
+}
+
+
+/* ==================================================
+   Portfolio
+================================================== */
+
+#portfolio img {
+	width: 100%;	
+}
+
+#projects {
+	margin: 0;
+	padding: 0;
+}
+
+#projects li {
+	list-style: none;
+	margin-bottom: 30px;
+}
+
+.item-project {
+	position: relative;
+	overflow: hidden;	
+}
+
+.item-project:hover img,
+.item-project:active img {
+	opacity:.55
+}
+
+/* ==================================================
+   Footer
+================================================== */
+
+footer {
+	position: relative;
+	background: transparent;	
+	padding: 40px 0 40px;
+	margin-bottom: 0px;
+}
+
+/* ==================================================
+   Footer Widgets
+================================================== */
+
+footer.footer-widgets .widget {
+	margin-bottom: 0;	
+}
+
+footer.footer-widgets {
+	color: #777;
+	font-size: 20x;
+}
+
+footer.footer-widgets a {
+	color: #777;	
+}
+
+footer.footer-widgets a:hover {
+	color: #000;
+}
